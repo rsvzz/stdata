@@ -4,7 +4,7 @@
 #include "headers/Stack.hpp" //use
 #include "headers/TreeBit.hpp" //use
 using namespace std;
-using namespace list_g; //use requeri namespace
+using namespace stdata; //use requeri namespace
 struct  Person
 {
     string name;

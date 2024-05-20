@@ -1,7 +1,7 @@
 #ifndef QUEUE_HPP
 #define QUEUE_HPP
 #include "ItemsSQ.hpp"
-namespace list_g{
+namespace stdata{
 /// @brief Queue saves added
 /// @tparam Type class
 template<class t>

@@ -1,8 +1,8 @@
 #ifndef TREE_BIT_HPP
 #define TREE_BIT_HPP
 #include "ItemsTreeBit.hpp"
-using namespace list_g;
-namespace list_g{
+using namespace stdata;
+namespace stdata{
     /// @brief type data
     /// @tparam k typename key 
     /// @tparam t class type items
