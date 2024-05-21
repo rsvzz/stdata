@@ -1,8 +1,8 @@
 #ifndef TREE_BIT_HPP
 #define TREE_BIT_HPP
 #include "ItemsTreeBit.hpp"
-using namespace stdata;
-namespace stdata{
+using namespace dt_common;
+namespace dt_common{
     /// @brief type data
     /// @tparam k typename key 
     /// @tparam t class type items
@@ -61,7 +61,9 @@ namespace stdata{
             else
                 add_item(tree, aux);
         };
-
+        /// @brief find key
+        /// @param key 
+        /// @return item
         t* find_by_key(k key){
             if(tree != NULL){
                 if(tree->key == key)
@@ -75,6 +77,5 @@ namespace stdata{
             return NULL;
         };
     };
-
 }
 #endif

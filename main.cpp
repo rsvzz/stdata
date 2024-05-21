@@ -4,14 +4,8 @@
 #include "headers/Stack.hpp" //use
 #include "headers/TreeBit.hpp" //use
 using namespace std;
-using namespace stdata; //use requeri namespace
-struct  Person
-{
-    string name;
-    int age;
-};
-
+using namespace dt_common; //You need this
 int main(){
-    cout<<"Working test"<<endl;
+    cout<<"  \nWorking test"<<endl;
     return 0;
 }

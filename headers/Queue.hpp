@@ -1,7 +1,7 @@
 #ifndef QUEUE_HPP
 #define QUEUE_HPP
 #include "ItemsSQ.hpp"
-namespace stdata{
+namespace dt_common{
 /// @brief Queue saves added
 /// @tparam Type class
 template<class t>
@@ -19,7 +19,7 @@ public:
         ItemsSQ<t>* aux= new ItemsSQ<t>;
         aux->key = item;
         aux->next = NULL;
-        if(front == NULL){ //sincronizacion de variables; 
+        if(front == NULL){
             front = aux;
             cend = aux;
         }

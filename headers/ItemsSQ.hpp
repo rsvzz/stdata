@@ -1,6 +1,6 @@
 #ifndef ITEMS_SQ_HPP
 #define ITEMS_SQ_HPP
-namespace stdata{
+namespace dt_common{
 /// @brief ItemQueue is item of Queue and Stack.
 /// @tparam t_cl 
 template<class t_cl>

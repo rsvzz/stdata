@@ -1,8 +1,8 @@
 #ifndef STACK_HPP
 #define STACK_HPP
 #include "ItemsSQ.hpp"
-using namespace stdata;
-namespace stdata{
+using namespace dt_common;
+namespace dt_common{
     /// @brief Stack 
     /// @tparam t Type Class
     template<class t>

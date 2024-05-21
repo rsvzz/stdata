@@ -1,6 +1,6 @@
 #ifndef ITEMS_TREE_BIT_HPP
 #define ITEMS_TREE_BIT_HPP
-namespace stdata{
+namespace dt_common{
 /// @brief Items TreeBit
 /// @tparam k type key
 /// @tparam t_cl type class item
