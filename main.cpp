@@ -6,6 +6,6 @@
 using namespace std;
 using namespace dt_common; //You need this
 int main(){
-    cout<<"  \nWorking test"<<endl;
+    cout<<"Working test"<<endl;
     return 0;
 }

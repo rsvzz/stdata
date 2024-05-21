@@ -25,6 +25,9 @@ while (_queue.get_front() != NULL)
 result 1, 2, 3, 4,  
 ## Use STACK
 ```
+#include "headers/Stack.hpp"
+```
+```
 Stack<int> _sk;
 _sk.add(1);
 _sk.add(2);
